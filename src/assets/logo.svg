@@ -1,0 +1,24 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define silver gradient -->
+  <defs>
+    <linearGradient id="silver-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #C0C0C0; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #808080; stop-opacity: 1" />
+    </linearGradient>
+    
+    <!-- Define gold gradient -->
+    <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #FFD700; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #B8860B; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Text for PC -->
+  <text x="10" y="50" font-family="Verdana, sans-serif" font-size="40" fill="url(#silver-gradient)" font-weight="bold">PC</text>
+  
+  <!-- Text for Part -->
+  <text x="80" y="50" font-family="Verdana, sans-serif" font-size="40" fill="url(#gold-gradient)" font-weight="bold">Part</text>
+  
+  <!-- Text for Buyer 175 -->
+  <text x="175" y="50" font-family="Verdana, sans-serif" font-size="40" fill="url(#silver-gradient)" font-weight="bold">Buyer</text>
+</svg>

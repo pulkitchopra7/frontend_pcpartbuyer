@@ -1,0 +1,23 @@
+.item {
+  display: inline-flex;
+  height: 300px;
+  width: 250px;
+
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 25px 25px 25px;
+}
+
+.item:hover {
+  scale: 1.05;
+  transition: 0.2s;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0.8rem;
+
+  object-fit: fill;
+  border-radius: 5%;
+}

@@ -1,0 +1,42 @@
+.empty {
+  height: 10vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+
+  background-color: rgb(38, 41, 59);
+  color: white;
+}
+
+.FP1 {
+  height: 10vh;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.FP2 {
+  height: 100%;
+  width: 50%;
+}
+
+.FP2 p {
+  font-size: 0.8rem;
+}
+.FP2 p:first-child {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}

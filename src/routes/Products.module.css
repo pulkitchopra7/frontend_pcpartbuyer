@@ -1,0 +1,56 @@
+.productsPage {
+  width: 100%;
+  padding: 30px;
+}
+
+.dropDown {
+  border: none;
+}
+
+.dropDownLabels {
+  margin-left: 20px;
+}
+
+.productsContainer {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 2%;
+  min-height: 60vh;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: black;
+}
+
+.pageControl {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageControl input {
+  border: none;
+  text-align: center;
+  width: 2rem;
+  -moz-appearance: textfield;
+}
+
+.pageControl input::-webkit-outer-spin-button,
+.pageControl input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pageLimitControl {
+  position: inline block;
+}
+.pageLimitControlContainer {
+  display: flex;
+  justify-content: flex-end;
+}

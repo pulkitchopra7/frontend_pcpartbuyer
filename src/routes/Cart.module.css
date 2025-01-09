@@ -1,0 +1,74 @@
+.container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItems {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.cartItem1 {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cartItem2 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cartItems div img {
+  height: 100%;
+  width: auto;
+}
+
+.buyButton {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.start {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.orderItem {
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+
+.orderList {
+  max-height: 50vh;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none; /* Hide the scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
+.orderList::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for WebKit browsers */
+}

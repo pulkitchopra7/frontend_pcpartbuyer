@@ -1,0 +1,50 @@
+.container {
+  padding: 30px;
+  padding-top: 0px;
+  border: 1px solid black;
+}
+
+.container textarea {
+  height: 20vh;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+}
+
+.container textarea:-webkit-scrollbar {
+  display: hidden;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+.stars span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.greyStar {
+  color: grey;
+}
+.goldenStar {
+  color: rgb(242, 161, 83);
+}
+.stars span:hover {
+  color: rgb(222, 121, 33);
+}
+
+.container button {
+  height: 2rem;
+  min-width: 4rem;
+  margin-top: 20px;
+}
+
+.delete {
+  background: rgb(255, 0, 0);
+  color: white;
+  border: none;
+}
+
+.delete:hover {
+  background: rgb(200, 0, 0);
+}

@@ -1,0 +1,53 @@
+.formContainer {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  min-height: 250px;
+  min-width: 250px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  gap: 1rem;
+
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: 2px;
+}
+
+.form input {
+  height: 1.5rem;
+}
+
+.pass a {
+  position: absolute;
+  right: 30px;
+
+  font-size: 0.8rem;
+}
+
+.pass input {
+  display: block;
+  width: 100%;
+}
+
+.loginBttn {
+  margin: 2rem;
+  height: 2rem;
+}
+
+.goBack {
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
+.signup {
+  align-self: center;
+  font-size: 0.8rem;
+}
