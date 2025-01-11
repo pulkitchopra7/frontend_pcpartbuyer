@@ -16,7 +16,7 @@ export default function review({ review }) {
           className={classes.userImg}
         />
         &nbsp;
-        {review.user.name}
+        {review.user?.name || "Deleted account"}
       </div>
       <p>{Stars(review.rating)}</p>
       <br />
